@@ -17,8 +17,7 @@ document.body.appendChild(function(){
     //リサーチナンバーのところにブチ込む
     $('#search_re_no').val(decodeURI(vars["research_number"]));
     //検索させる
-
-    //$("input[value='検索']").trigger("click");
+    $("input[value='検索']").trigger("click");
 
   }
   src = "("+code.toString()+")()"
